@@ -1,0 +1,24 @@
+{
+    "name": "Desafio",
+    "version": "2.0.0",
+    "description": "",
+    "type": "module",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "node --watch --no-warnings ./src/server.js"
+    },
+    "author": "Pedro Ferri",
+    "license": "ISC",
+    "subscribers": {
+        "redis": false
+    },
+    "dependencies": {
+        "@fastify/cors": "^8.4.1",
+        "bcrypt": "^5.1.1",
+        "dotenv": "^16.3.1",
+        "fastify": "^4.24.3",
+        "jsonwebtoken": "^9.0.2",
+        "mysql2": "^3.6.3"
+    }
+}
